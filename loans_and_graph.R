@@ -9,7 +9,7 @@ library(scales)
 # Read the data from the Excel file
 loan_data <- read_excel("C:/Users/giovanni.casonato/Desktop/Main Files/Closed_Loans_2000-2023.xlsx")
 
-# Convert the date column to a proper date forma
+# Convert the date column to a proper date format
 loan_data$date <- as.Date(loan_data$date)
 
 # Extract the month from the date column and keep it in date format
