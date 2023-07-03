@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(scales)
-###########################################################################
+##########################################################################
         #CREATE loans_month_data DATAFRAME WITH ALL CLOSED LOANS BY MONTH
 
 # Read the data from the Excel file
